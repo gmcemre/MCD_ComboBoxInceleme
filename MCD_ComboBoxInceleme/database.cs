@@ -25,7 +25,7 @@ namespace MCD_ComboBoxInceleme
             {
                 id=2,
                 urunAdi ="Tutunamayanlar",
-                stokAdet =10,
+                stokAdet =20,
                 urunKategori ="Roman",
                 aciklama ="Tutunamayanlar Oğuz Atay ismiyle özdeşleşmiş bir roman olarak, büyük yazarımızın hayatından izler taşımasıyla da kısmen otobiyografik bir eser olarak da değerlendirilebilir. Roman, son derece üst düzey diliyle çevirisi en zor romanlar arasında yer alır.Tutunamayanlar, sadece birkaç dile çevrilebilmiştir. “Het levenin stukken” adı altında Flemenkçeye (Hollanda Dili) çevrilen eser, eserin Hollandalı çevirmenine ödül kazandırmıştır.",
                 yazar="Oğuz Atay",
@@ -36,7 +36,7 @@ namespace MCD_ComboBoxInceleme
             {
                 id=3,
                 urunAdi ="İz Bıraktığın Kadar Varsın",
-                stokAdet =10,
+                stokAdet =30,
                 urunKategori ="Roman",
                 aciklama ="NE KADAR İZ BIRAKIRSANIZ O KADAR VAZGEÇİLMEZ OLURSUNUZ.Kusursuz bir bütün için harikulade parçalar gerekir. Tıkırtıkır işleyen bir sistem ancak böyle yürür, bir kovandaki arıları ya da devasa bir karınca yuvasını düşünün. İlişkiler de böyledir, hiçbir şey tek başına tüm ilişkiyi ayakta tutmaya yetmez. Fırtınaya yakalanmış bir tekneye yelkenler tek başına yardımcı olamaz, sağlam bir motor, belki devreye girmesi gereken kürekler ve güvertede teknenin seyrini sağlayan hünerli birkaç insan lazımdır.",
                 yazar="Esra Ezmeci",
