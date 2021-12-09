@@ -58,6 +58,21 @@ namespace MCD_ListBoxInceleme
                 txtUrunAciklama.Text = U1.aciklama;
 
             }
+            else if (urunSecimAdet >1)
+            {
+                List<urun> secilenUrunListe = new List<urun>();
+                foreach (var item in lstUrunler.SelectedItems )
+                {
+                    secilenUrunListe.Add(item as urun);
+                }
+
+                urunSecimKullanici secimKullanici = new urunSecimKullanici(secilenUrunListe.ToArray());
+                secimKullanici.ShowDialog();
+            }
+            else
+            {
+                MessageBox.Show("Lütfen detayını görmek istediğiniz ürünü seçiniz.", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
         }
 
         
