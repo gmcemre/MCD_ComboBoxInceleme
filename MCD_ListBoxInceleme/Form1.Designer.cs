@@ -63,6 +63,7 @@ namespace MCD_ListBoxInceleme
             this.lstUrunler.ItemHeight = 16;
             this.lstUrunler.Location = new System.Drawing.Point(295, 103);
             this.lstUrunler.Name = "lstUrunler";
+            this.lstUrunler.SelectionMode = System.Windows.Forms.SelectionMode.MultiSimple;
             this.lstUrunler.Size = new System.Drawing.Size(205, 116);
             this.lstUrunler.TabIndex = 3;
             this.lstUrunler.SelectedIndexChanged += new System.EventHandler(this.lstUrunler_SelectedIndexChanged);
